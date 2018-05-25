@@ -16,7 +16,7 @@ class Home extends StatelessWidget{
             new Padding(padding: const EdgeInsets.symmetric(vertical: 12.0)),
             new Image.asset('asset/pizza1.jpeg',fit: BoxFit.fitWidth,),
             new Padding(padding: const EdgeInsets.symmetric(vertical: 12.0)),
-            new RaisedButton(onPressed: (){Navigator.push(context, new MaterialPageRoute(builder: (context)=> new Order()));},
+            new RaisedButton(color: Colors.redAccent[100],onPressed: (){Navigator.push(context, new MaterialPageRoute(builder: (context)=> new Order()));},
             child: new Text('Take My Order..!!',textScaleFactor: 2.0,style: new TextStyle(fontWeight: FontWeight.bold,fontFamily: 'Ubuntu'),),
               padding: const EdgeInsets.symmetric(vertical: 15.0,horizontal:19.0),
               splashColor: Colors.lightBlueAccent,

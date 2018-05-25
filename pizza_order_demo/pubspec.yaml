@@ -27,6 +27,13 @@ flutter:
   assets:
       - asset/pizza1.jpeg
       - asset/splashscreen.jpeg
+      - asset/asplashscreen2.jpeg
+      - asset/focaccia.jpeg
+      - asset/flatbread.jpeg
+      - asset/thickcrust.jpg
+      - asset/thincrust.jpeg
+      - asset/finalimage.jpg
+      - asset/shoppagepizza.jpeg
 fonts:
   - family: Lobster
     fonts:
